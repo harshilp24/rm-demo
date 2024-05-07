@@ -35,7 +35,7 @@
         {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 16,
+    "leftColumn": 31,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "showInlineEditingOptionDropdown": true,
@@ -545,7 +545,7 @@
     "key": "2e76ggbl75",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 50,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
     "widgetId": "bp3oj84uvg",
