@@ -44,9 +44,9 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                " Table1.sortOrder.column ? { [Table1.sortOrder.column]: Table1.sortOrder.order !== \"desc\" ? 1 : -1 } : {}",
-                "Table1.pageSize",
-                "Table1.pageOffset"
+                " table3.sortOrder.column ? { [table3.sortOrder.column]: table3.sortOrder.order !== \"desc\" ? 1 : -1 } : {}",
+                "table3.pageSize",
+                "table3.pageOffset"
               ],
               "timeoutInMillisecond": 10000
             }
