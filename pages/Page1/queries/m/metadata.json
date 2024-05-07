@@ -44,13 +44,13 @@
             "data": ""
           },
           "limit": {
-            "data": "{{table3.pageSize}}"
+            "data": "{{tab1.pageSize}}"
           },
           "sort": {
-            "data": "{{ table3.sortOrder.column ? { [table3.sortOrder.column]: table3.sortOrder.order !== \"desc\" ? 1 : -1 } : {}}}"
+            "data": "{{ tab1.sortOrder.column ? { [tab1.sortOrder.column]: tab1.sortOrder.order !== \"desc\" ? 1 : -1 } : {}}}"
           },
           "skip": {
-            "data": "{{table3.pageOffset}}"
+            "data": "{{tab1.pageOffset}}"
           }
         },
         "smartSubstitution": {
@@ -79,9 +79,9 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      " table3.sortOrder.column ? { [table3.sortOrder.column]: table3.sortOrder.order !== \"desc\" ? 1 : -1 } : {}",
-      "table3.pageOffset",
-      "table3.pageSize"
+      " tab1.sortOrder.column ? { [tab1.sortOrder.column]: tab1.sortOrder.order !== \"desc\" ? 1 : -1 } : {}",
+      "tab1.pageOffset",
+      "tab1.pageSize"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

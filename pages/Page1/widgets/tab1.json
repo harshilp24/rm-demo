@@ -87,7 +87,7 @@
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 52,
-    "widgetName": "table3",
+    "widgetName": "tab1",
     "defaultPageSize": 0,
     "columnOrder": [
         "revenue",
@@ -127,9 +127,9 @@
     "primaryColumns": {
         "EditActions1": {
             "computedValue": "",
-            "saveButtonColor": "{{table3.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+            "saveButtonColor": "{{tab1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
             "discardIconAlign": "left",
-            "isSaveDisabled": "{{table3.processedTableData.map((currentRow, currentIndex) => ( !table3.updatedRowIndices.includes(currentIndex)))}}",
+            "isSaveDisabled": "{{tab1.processedTableData.map((currentRow, currentIndex) => ( !tab1.updatedRowIndices.includes(currentIndex)))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "EditActions1",
@@ -149,7 +149,7 @@
             "allowCellWrapping": false,
             "index": 10,
             "isDiscardVisible": true,
-            "isDiscardDisabled": "{{table3.processedTableData.map((currentRow, currentIndex) => ( !table3.updatedRowIndices.includes(currentIndex)))}}",
+            "isDiscardDisabled": "{{tab1.processedTableData.map((currentRow, currentIndex) => ( !tab1.updatedRowIndices.includes(currentIndex)))}}",
             "isVisible": true,
             "label": "Save / Discard",
             "discardActionLabel": "Discard",
@@ -159,18 +159,18 @@
             "horizontalAlignment": "LEFT",
             "isCellEditable": false,
             "decimals": 0,
-            "saveBorderRadius": "{{table3.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+            "saveBorderRadius": "{{tab1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
             "width": 150,
             "enableFilter": true,
             "sticky": "right",
             "saveIconAlign": "left",
             "originalId": "EditActions1",
-            "discardBorderRadius": "{{table3.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+            "discardBorderRadius": "{{tab1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
             "currencyCode": "USD",
             "verticalAlignment": "CENTER"
         },
         "imdb_id": {
-            "computedValue": "{{table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"imdb_id\"]))}}",
+            "computedValue": "{{tab1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"imdb_id\"]))}}",
             "isEditable": true,
             "notation": "standard",
             "alias": "imdb_id",
@@ -201,7 +201,7 @@
             "verticalAlignment": "CENTER"
         },
         "title": {
-            "computedValue": "{{table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"title\"]))}}",
+            "computedValue": "{{tab1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"title\"]))}}",
             "isEditable": true,
             "notation": "standard",
             "alias": "title",
@@ -232,7 +232,7 @@
             "verticalAlignment": "CENTER"
         },
         "poster_path": {
-            "computedValue": "{{table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"poster_path\"]))}}",
+            "computedValue": "{{tab1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"poster_path\"]))}}",
             "isEditable": true,
             "notation": "standard",
             "alias": "poster_path",
@@ -263,7 +263,7 @@
             "verticalAlignment": "CENTER"
         },
         "revenue": {
-            "computedValue": "{{table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"revenue\"]))}}",
+            "computedValue": "{{tab1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"revenue\"]))}}",
             "isEditable": true,
             "notation": "standard",
             "alias": "revenue",
@@ -294,7 +294,7 @@
             "verticalAlignment": "CENTER"
         },
         "release_date": {
-            "computedValue": "{{table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"release_date\"]))}}",
+            "computedValue": "{{tab1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"release_date\"]))}}",
             "isEditable": true,
             "notation": "standard",
             "alias": "release_date",
@@ -325,7 +325,7 @@
             "verticalAlignment": "CENTER"
         },
         "genres": {
-            "computedValue": "{{table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"genres\"]))}}",
+            "computedValue": "{{tab1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"genres\"]))}}",
             "isEditable": true,
             "notation": "standard",
             "alias": "genres",
@@ -356,7 +356,7 @@
             "verticalAlignment": "CENTER"
         },
         "vote_average": {
-            "computedValue": "{{table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"vote_average\"]))}}",
+            "computedValue": "{{tab1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"vote_average\"]))}}",
             "isEditable": true,
             "notation": "standard",
             "alias": "vote_average",
@@ -387,7 +387,7 @@
             "verticalAlignment": "CENTER"
         },
         "tagline": {
-            "computedValue": "{{table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"tagline\"]))}}",
+            "computedValue": "{{tab1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"tagline\"]))}}",
             "isEditable": true,
             "notation": "standard",
             "alias": "tagline",
@@ -418,7 +418,7 @@
             "verticalAlignment": "CENTER"
         },
         "_id": {
-            "computedValue": "{{table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"_id\"]))}}",
+            "computedValue": "{{tab1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"_id\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "_id",
@@ -449,7 +449,7 @@
             "verticalAlignment": "CENTER"
         },
         "vote_count": {
-            "computedValue": "{{table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"vote_count\"]))}}",
+            "computedValue": "{{tab1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"vote_count\"]))}}",
             "isEditable": true,
             "notation": "standard",
             "alias": "vote_count",
@@ -480,7 +480,7 @@
             "verticalAlignment": "CENTER"
         },
         "homepage": {
-            "computedValue": "{{table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"homepage\"]))}}",
+            "computedValue": "{{tab1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"homepage\"]))}}",
             "isEditable": true,
             "notation": "standard",
             "alias": "homepage",
@@ -511,7 +511,7 @@
             "verticalAlignment": "CENTER"
         },
         "status": {
-            "computedValue": "{{table3.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status\"]))}}",
+            "computedValue": "{{tab1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status\"]))}}",
             "isEditable": true,
             "notation": "standard",
             "alias": "status",

@@ -58,10 +58,10 @@
             "data": "SINGLE"
           },
           "query": {
-            "data": "{_id: ObjectId('{{table3.updatedRow._id}}')}"
+            "data": "{_id: ObjectId('{{tab1.updatedRow._id}}')}"
           },
           "update": {
-            "data": "{{{$set: _.omit(table3.updatedRow, \"_id\")}}}"
+            "data": "{{{$set: _.omit(tab1.updatedRow, \"_id\")}}}"
           }
         }
       }
@@ -79,8 +79,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "table3.updatedRow._id",
-      "{$set: _.omit(table3.updatedRow, \"_id\")}"
+      "tab1.updatedRow._id",
+      "{$set: _.omit(tab1.updatedRow, \"_id\")}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
