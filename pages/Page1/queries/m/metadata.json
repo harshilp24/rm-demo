@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mongo-plugin",
   "unpublishedAction": {
-    "name": "Find_movies1",
+    "name": "m",
     "datasource": {
       "name": "movies",
       "pluginId": "mongo-plugin",
@@ -89,7 +89,7 @@
     "userPermissions": [],
     "createdAt": "2024-05-07T05:14:35Z"
   },
-  "id": "Page1_Find_movies1",
+  "id": "Page1_m",
   "deleted": false,
   "gitSyncId": "6639b889e8e7c94749668355_862bdde3-db8a-49d3-89d6-0082bdcf75cb"
 }
