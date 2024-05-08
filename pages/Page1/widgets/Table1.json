@@ -82,7 +82,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1715058877839,
+    "columnUpdatedAt": 1715183339070,
     "primaryColumnId": "_id",
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -96,12 +96,12 @@
         "genres",
         "vote_average",
         "tagline",
-        "_id",
+        "status",
         "title",
         "vote_count",
+        "_id",
         "poster_path",
         "homepage",
-        "status",
         "EditActions1"
     ],
     "dynamicPropertyPathList": [
