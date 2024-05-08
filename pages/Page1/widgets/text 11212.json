@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "hello from appsmith",
+    "text": "text update from appsmith",
     "key": "us6zx9rfgl",
     "isDeprecated": false,
     "rightColumn": 32,
