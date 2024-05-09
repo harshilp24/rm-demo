@@ -52,7 +52,7 @@
         },
         "insert": {
           "documents": {
-            "data": "{{(Table1.newRow || {})}}"
+            "data": "{{(tab1.newRow || {})}}"
           }
         },
         "smartSubstitution": {
@@ -75,7 +75,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "(Table1.newRow || {})"
+      "(tab1.newRow || {})"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
